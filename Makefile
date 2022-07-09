@@ -28,7 +28,7 @@ export OPENLANE_TAG=2022.07.02_01.38.08
 CARAVEL_LITE?=1
 
 # PDK switch varient
-export PDK?=sky130B
+export PDK?=sky130A
 export PDKPATH?=$(PDK_ROOT)/$(PDK)
 
 MPW_TAG ?= mpw-7a
